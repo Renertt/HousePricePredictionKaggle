@@ -10,3 +10,7 @@ The project is based on data from the Kaggle competition https://www.kaggle.com/
 *   **Libraries:**
     *   Pandas - for proccessing data
     *   Scikit-learn - to build the model
+
+### MAE
+
+Current MAE: 22,035.59 dollars
