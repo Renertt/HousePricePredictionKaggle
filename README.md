@@ -13,5 +13,5 @@ The project is based on data from the Kaggle competition https://www.kaggle.com/
 
 ### MAE
 
-Current MAE: 21,624.77 dollars
-Current MAPE: 11.92 %
+Current MAE: 20,982.85 dollars
+Current MAPE: 11.56 %
