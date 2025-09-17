@@ -8,5 +8,5 @@ The project is based on data from the Kaggle competition https://www.kaggle.com/
 
 *   **Language:** Python
 *   **Libraries:**
-    *   Pandas - для обработки данных
-    *   Scikit-learn - для построения модели
+    *   Pandas - for proccessing data
+    *   Scikit-learn - to build the model
