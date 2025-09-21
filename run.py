@@ -11,19 +11,25 @@ def run_benchmark():
 
     notebooks_to_run = {
         'RandomForest': 'models/housePriceAnaliseRF.ipynb',
-        'XGBoost': 'models/housePriceAnaliseXGB.ipynb'
+        'XGBoost': 'models/housePriceAnaliseXGB.ipynb',
+        'LGBoost': 'models/housePriceAnaliseLGB.ipynb'
     }
     
     for modelName, notebook_path in notebooks_to_run.items():
         print(f"Starting {modelName}")
         pm.execute_notebook(
             notebook_path,
-            f'executedNotebooks/output_{os.path.basename(notebook_path)}'
+            f'executedNotebooks/output_{os.path.basename(notebook_path)}',
+            cwd='.'
         )
         print(f"{modelName} finished")
 
     finalResults = []
-    resultFiles = ['collectedData/resultsRF.json', 'collectedData/resultsXGB.json']
+    resultFiles = [
+        'collectedData/resultsRF.json',
+        'collectedData/resultsXGB.json',
+        'collectedData/resultsLGB.json'
+                   ]
     
     for file_path in resultFiles:
         if os.path.exists(file_path):
