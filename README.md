@@ -10,6 +10,9 @@ The project is based on data from the Kaggle competition https://www.kaggle.com/
 *   **Libraries:**
     *   Pandas - for proccessing data
     *   Scikit-learn - to build the model
+    *   Xgboost - for building XGB-model
+    *   Lightgbm - for building LGB-model
+    *   Papermill - for one-file-running
 
 ### MAE
 
