@@ -3,6 +3,12 @@ import json
 import os
 
 def run_benchmark():
+    resultsDir = 'collectedData'
+    outputDir = 'executedNotebooks'
+
+    os.makedirs(resultsDir, exist_ok=True)
+    os.makedirs(outputDir, exist_ok=True)
+
     notebooks_to_run = {
         'RandomForest': 'models/housePriceAnaliseRF.ipynb',
         'XGBoost': 'models/housePriceAnaliseXGB.ipynb'
