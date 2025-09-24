@@ -214,3 +214,4 @@ collectedData/
 output_*.ipynb
 executedNotebooks/output_*.ipynb
 modelsInfo/executedNotebooks/output_*.ipynb
+executedNotebooks
