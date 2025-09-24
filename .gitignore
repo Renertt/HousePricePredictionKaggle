@@ -209,6 +209,8 @@ __marimo__/
 # Other
 
 info
+infoOldCode
 collectedData/
 output_*.ipynb
 executedNotebooks/output_*.ipynb
+modelsInfo/executedNotebooks/output_*.ipynb
