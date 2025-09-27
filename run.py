@@ -1,6 +1,7 @@
 import papermill as pm
 import json
 import os
+import numpy as np
 
 def run_benchmark():
     resultsDir = 'modelsInfo/collectedData'
@@ -38,6 +39,7 @@ def run_benchmark():
     
     for result in finalResults:
         modelName = result['modelName']
+        mapeResult = result['mae']
         mapeResult = result['mape']
         print(f"Model: {modelName:<20} | MAPE: {mapeResult:,.2f}")
 
