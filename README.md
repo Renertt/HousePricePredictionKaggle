@@ -9,7 +9,7 @@ The project is based on data from the Kaggle competition https://www.kaggle.com/
 *   **Language:** Python
 *   **Libraries:**
     *   Pandas - for proccessing data
-    *   Scikit-learn - to build the model
+    *   Scikit-learn - to buildштп RandomForest-model
     *   Xgboost - for building XGB-model
     *   Lightgbm - for building LGB-model
     *   Papermill - for one-file-running
@@ -18,3 +18,8 @@ The project is based on data from the Kaggle competition https://www.kaggle.com/
 
 Current best MAE: 16,940.88 dollars
 Current best MAPE: 9.34 %
+
+### Total
+
+9.34% MAPE became the best result that I can do here without full code refactor. I will try advancing the result starting this project again in another repo and fully refactoring its code. 
+Also I will first-try using Deep Learning in the new repo.
